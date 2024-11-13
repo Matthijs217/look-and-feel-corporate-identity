@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.heading-medium {
+    color: var(--primary-color);
+}
+
+.heading-medium {
+    color: pink;
+}
+
+h2 {
+    color: purple;
+}
+
+.green {
+    color: green;
+}
+
+#heading {
+    color: yellow;
+}
