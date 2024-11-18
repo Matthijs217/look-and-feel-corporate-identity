@@ -1,0 +1,49 @@
+    html, body {
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: black;
+        position: fixed;
+        width: 100%;
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Calvino Grande Trial';
+        margin-left: 5vw;
+        margin-top: 5vh;
+        margin-bottom: 0;
+    }
+
+    .dropdownarrow {
+        height: 10px;
+        position: absolute;
+        right: 5vw;
+        top: 2em;
+        color: white;
+        font-size: 30px;
+    }
+
+    /* PROGRESSBAR */
+
+    progress {
+        width: 50%;
+        margin-left: 5vw;
+        height: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    
+    progress::-webkit-progress-bar {
+        background-color: #e0e0e0; /* Achtergrond van de balk */
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #4caf50; /* Gevulde kleur */
+    }
+
