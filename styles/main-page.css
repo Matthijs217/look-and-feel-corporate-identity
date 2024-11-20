@@ -36,6 +36,12 @@
         justify-content: space-evenly;
     }
 
+    .switchrouwtaken p {
+        font-family: 'Figtree';
+        font-size: 12px;
+        width: 20vw;
+    }
+
     .rtswitch1,
     .rtswitch2,
     .rtswitch3,
@@ -151,6 +157,7 @@
         font-size: 32px;
         margin-top: 5vh;
         margin-bottom: 0;
+        text-align: center;
     }
 
     aside p {
@@ -158,6 +165,7 @@
         font-family: 'Figtree';
         font-size: 20px;
         margin-top: 1vh;
+        text-align: center;
     }
 
     /* MAIN */
@@ -175,7 +183,7 @@
     section {
         position: relative;
         margin-top: 3vh;
-        width: 80%;
+        width: 90%;
         border: 1px solid gray;
         border-radius: 45px;
         display: flex;
@@ -259,4 +267,30 @@
     button:hover {
         background-color: #4D8FAC;
         transform: scale(1.06);
+    }
+
+    @media (min-width: 600px) {
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 1em;
+        }
+        section {
+            min-width: 45vw;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 2em;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        section {
+            min-width: 27vw;
+        }
     }
