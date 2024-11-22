@@ -365,3 +365,17 @@ section button .btn-rouwtaak-4 {
         min-width: 27vw;
     }
 }
+
+@media (min-width: 1200px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 2em;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    section {
+        min-width: 27vw;
+    }
+}
