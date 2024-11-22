@@ -281,6 +281,65 @@ nav div {
     gap: 1vh;
 }
 
+/* BUTTON CLASSES */
+
+section button .btn-rouwtaak-1 {
+    position: absolute;
+    background-color: var(--btn-rouwtaak-1);
+    border: var(--btn-border);
+    color: var(--text-primary);
+    font-family: var(--ff-figtree);
+    font-size: 16px;
+    border-radius: var(--pill-btn-border-radius);
+    padding: 10px 20px;
+    top: 47%;
+    right: 2vw;
+    cursor: pointer;
+}
+
+section button .btn-rouwtaak-2 {
+    position: absolute;
+    background-color: var(--btn-rouwtaak-2);
+    border: var(--btn-border);
+    color: var(--text-primary);
+    font-family: var(--ff-figtree);
+    font-size: 16px;
+    border-radius: var(--pill-btn-border-radius);
+    padding: 10px 20px;
+    top: 47%;
+    right: 2vw;
+    cursor: pointer;
+}
+
+section button .btn-rouwtaak-3 {
+    position: absolute;
+    background-color: var(--btn-rouwtaak-3);
+    border: var(--btn-border);
+    color: var(--text-primary);
+    font-family: var(--ff-figtree);
+    font-size: 16px;
+    border-radius: var(--pill-btn-border-radius);
+    padding: 10px 20px;
+    top: 47%;
+    right: 2vw;
+    cursor: pointer;
+}
+
+section button .btn-rouwtaak-4 {
+    position: absolute;
+    background-color: var(--btn-rouwtaak-4);
+    border: var(--btn-border);
+    color: var(--text-primary);
+    font-family: var(--ff-figtree);
+    font-size: 16px;
+    border-radius: var(--pill-btn-border-radius);
+    padding: 10px 20px;
+    top: 47%;
+    right: 2vw;
+    cursor: pointer;
+}
+
+
 @media (min-width: 600px) {
     main {
         display: grid;
