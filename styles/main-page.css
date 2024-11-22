@@ -283,59 +283,35 @@ nav div {
 
 /* BUTTON CLASSES */
 
-.btn-rouwtaak-1 {
+section button {
     position: absolute;
-    background-color: var(--btn-rouwtaak-1);
-    border: var(--btn-border);
-    color: var(--text-primary);
     font-family: var(--ff-figtree);
     border-radius: var(--pill-btn-border-radius);
     padding: var(--pill-btn-padding);
+    border: var(--btn-border);
     top: 40%;
     right: 2vw;
     cursor: pointer;
 }
 
-.btn-rouwtaak-2 {
-    position: absolute;
-    background-color: var(--btn-rouwtaak-2);
-    border: var(--btn-border);
+.btn-rouwtaak-1 {
     color: var(--text-primary);
-    font-family: var(--ff-figtree);
-    font-size: 16px;
-    border-radius: var(--pill-btn-border-radius);
-    padding: 10px 20px;
-    top: 47%;
-    right: 2vw;
-    cursor: pointer;
+    background-color: var(--btn-rouwtaak-1);
+}
+
+.btn-rouwtaak-2 {
+    background-color: var(--btn-rouwtaak-2);
+    color: var(--text-primary);
 }
 
 .btn-rouwtaak-3 {
-    position: absolute;
     background-color: var(--btn-rouwtaak-3);
-    border: var(--btn-border);
     color: var(--text-primary);
-    font-family: var(--ff-figtree);
-    font-size: 16px;
-    border-radius: var(--pill-btn-border-radius);
-    padding: 10px 20px;
-    top: 47%;
-    right: 2vw;
-    cursor: pointer;
 }
 
 .btn-rouwtaak-4 {
-    position: absolute;
     background-color: var(--btn-rouwtaak-4);
-    border: var(--btn-border);
     color: var(--text-primary);
-    font-family: var(--ff-figtree);
-    font-size: 16px;
-    border-radius: var(--pill-btn-border-radius);
-    padding: 10px 20px;
-    top: 47%;
-    right: 2vw;
-    cursor: pointer;
 }
 
 
