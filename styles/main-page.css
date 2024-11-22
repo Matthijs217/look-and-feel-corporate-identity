@@ -16,7 +16,7 @@ header {
     top: 0;
     box-sizing: border-box;
     padding: 5px;
-    z-index: 1;
+    z-index: 999;
 }
 
 .header2 {
@@ -28,6 +28,7 @@ header {
     box-sizing: border-box;
     border-radius: 0 0 40px 40px;
     padding-bottom: 1em;
+    z-index: 999;
 }
 
 .switchrouwtaken {
@@ -164,7 +165,7 @@ aside h2 {
     margin-top: 5vh;
     margin-bottom: 0;
     text-align: center;
-    z-index: 999;
+    z-index: 55;
 }
 
 aside p {
@@ -173,7 +174,7 @@ aside p {
     font-size: 20px;
     margin-top: 1vh;
     text-align: center;
-    z-index: 999;
+    z-index: 55;
 }
 
 /* MAIN */
@@ -186,7 +187,6 @@ main {
     align-items: center;
     background-color: #1D1D1D;
     border-radius: 40px 40px 0px 0px;
-    z-index: 999;
 }
 
 section {
@@ -283,21 +283,20 @@ nav div {
 
 /* BUTTON CLASSES */
 
-section button .btn-rouwtaak-1 {
+.btn-rouwtaak-1 {
     position: absolute;
     background-color: var(--btn-rouwtaak-1);
     border: var(--btn-border);
     color: var(--text-primary);
     font-family: var(--ff-figtree);
-    font-size: 16px;
     border-radius: var(--pill-btn-border-radius);
-    padding: 10px 20px;
-    top: 47%;
+    padding: var(--pill-btn-padding);
+    top: 40%;
     right: 2vw;
     cursor: pointer;
 }
 
-section button .btn-rouwtaak-2 {
+.btn-rouwtaak-2 {
     position: absolute;
     background-color: var(--btn-rouwtaak-2);
     border: var(--btn-border);
@@ -311,7 +310,7 @@ section button .btn-rouwtaak-2 {
     cursor: pointer;
 }
 
-section button .btn-rouwtaak-3 {
+.btn-rouwtaak-3 {
     position: absolute;
     background-color: var(--btn-rouwtaak-3);
     border: var(--btn-border);
@@ -325,7 +324,7 @@ section button .btn-rouwtaak-3 {
     cursor: pointer;
 }
 
-section button .btn-rouwtaak-4 {
+.btn-rouwtaak-4 {
     position: absolute;
     background-color: var(--btn-rouwtaak-4);
     border: var(--btn-border);
@@ -353,6 +352,9 @@ section button .btn-rouwtaak-4 {
 }
 
 @media (min-width: 1200px) {
+    header h1 {
+        font-size: 48px;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -367,6 +369,10 @@ section button .btn-rouwtaak-4 {
 }
 
 @media (min-width: 1200px) {
+    .switchrouwtaken img {
+        height: 120px;
+        width: 120px;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

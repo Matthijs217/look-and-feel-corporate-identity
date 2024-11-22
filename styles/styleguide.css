@@ -56,8 +56,8 @@
     /* Pill button*/
     --btn-border: 1px solid #F5F5F533;
     --pill-btn-border-radius: 5rem;
-    --pill-btn-padding: 0.5rem;
-    --pill-btn-width: 5rem;
+    --pill-btn-padding: 0.6rem;
+    --pill-btn-width: 8rem;
   
     /* Typography Settings */
     --ff-calvino: "Calvino Grande", serif;
