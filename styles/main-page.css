@@ -73,6 +73,10 @@ a {
     padding-top: 15px;
 }
 
+.switchrouwtaken div:hover {
+    transform: scale(1.1);
+}
+
 h1 {
     color: var(--text-primary);
     font-size: 32px;
@@ -136,21 +140,19 @@ aside img {
 
 .mesh1 {
     height: 20vh;
-    margin-left: 6vw;
-    filter: blur(4em);
+    filter: blur(3em);
     position: absolute;
-    top: 18vh;
-    left: -20vw;
+    top: 27vh;
+    left: 0;
     overflow: hidden;
 }
 
 .mesh2 {
     height: 20vh;
-    margin-left: 6vw;
-    filter: blur(4em);
+    filter: blur(3em);
     position: absolute;
-    top: 18vh;
-    left: 55vw;
+    top: 27vh;
+    right: 0;
     overflow: hidden;
 }
 
@@ -256,7 +258,7 @@ button:hover {
 }
 
 nav {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     background-color: var(--bg-primary);
@@ -273,6 +275,10 @@ nav div {
     gap: 1vh;
 }
 
+nav div:hover {
+    transform: scale(1.1);
+}
+
 /* BUTTON CLASSES */
 
 section button {
@@ -281,7 +287,7 @@ section button {
     border-radius: var(--pill-btn-border-radius);
     padding: var(--pill-btn-padding);
     border: var(--btn-border);
-    top: 40%;
+    top: 35%;
     right: 2vw;
     cursor: pointer;
 }
@@ -308,6 +314,11 @@ section button {
 
 
 @media (min-width: 600px) {
+    .switchrouwtaken img {
+        height: 100px;
+        width: 100px;
+        border-radius: 2vw;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -317,9 +328,17 @@ section button {
     section {
         min-width: 45vw;
     }
+    .opdrachtdetails, .opdrachtcontent p, .opdrachtcontent h3 {
+        margin-left: 2vw;
+    } 
 }
 
 @media (min-width: 1200px) {
+    .switchrouwtaken img {
+        height: 120px;
+        width: 120px;
+        border-radius: 1vw;
+    }
     header h1 {
         font-size: 48px;
     }
@@ -334,22 +353,10 @@ section button {
     section {
         min-width: 27vw;
     }
-}
-
-@media (min-width: 1200px) {
-    .switchrouwtaken img {
-        height: 120px;
-        width: 120px;
+    section button {
+        right: 1vw;
     }
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        gap: 2em;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    section {
-        min-width: 27vw;
-    }
+    .opdrachtdetails, .opdrachtcontent p, .opdrachtcontent h3 {
+        margin-left: 1vw;
+    } 
 }
