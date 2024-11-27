@@ -314,6 +314,7 @@ section button {
 
 
 @media (min-width: 750px) {
+    
     .switchrouwtaken img {
         height: 100px;
         width: 100px;
@@ -344,6 +345,10 @@ section button {
 }
 
 @media (min-width: 1200px) {
+    .dropdownarrow {
+        height: 10px;
+        top: 2em;
+    }
     .switchrouwtaken img {
         height: 120px;
         width: 120px;
