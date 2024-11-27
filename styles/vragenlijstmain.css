@@ -23,7 +23,7 @@ header h1 {
 header img {
     position: absolute;
     width: 100%;
-    margin-top: 1em;
+    margin-top: 2em;
     top: 15%;
 }
 
@@ -109,25 +109,39 @@ footer #overslaanknop {
     }
 
     header h1 {
-        font-size: 40px;
+        font-size: 36px;
+    }
+
+    header img {
+        margin-top: 2em;
     }
 
     main h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     main p {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
-@media (min-width: 690px) {
+@media (min-width: 620px) {
+    header img {
+        margin-top: -1em;
+    }
+}
+
+@media (min-width: 860px) {
     main {
         margin-top: 5em;
     }
 
     header h1 {
         font-size: 50px;
+    }
+    
+    header img {
+        margin-top: 1em;
     }
 
     main h2 {

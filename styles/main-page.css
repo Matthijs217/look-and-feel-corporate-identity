@@ -139,8 +139,8 @@ aside img {
 }
 
 .mesh1 {
-    height: 20vh;
-    filter: blur(3em);
+    height: 30vh;
+    filter: blur(8em);
     position: absolute;
     top: 27vh;
     left: 0;
@@ -148,8 +148,8 @@ aside img {
 }
 
 .mesh2 {
-    height: 20vh;
-    filter: blur(3em);
+    height: 30vh;
+    filter: blur(8em);
     position: absolute;
     top: 27vh;
     right: 0;
@@ -328,6 +328,11 @@ section button {
         margin-inline: auto;
         padding: 2em;
     }
+    .mesh1,
+    .mesh2 {
+        height: 30vh;
+        filter: blur(8em);
+    }
     section {
         width: 100%;
         margin: 0;
@@ -346,6 +351,11 @@ section button {
     }
     header h1 {
         font-size: 48px;
+    }
+    .mesh1,
+    .mesh2 {
+        height: 50vh;
+        filter: blur(12em);
     }
     main {
         display: grid;
