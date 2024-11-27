@@ -35,7 +35,6 @@
     header img {
         position: static;
         width: 100%;
-        margin-top: 1em;
         margin-bottom: 2em;
     }
 
@@ -197,7 +196,6 @@
         .titel {
             margin-top: 2vh;
             margin-left: 4vw;
-            margin-bottom: 8vh;
         }
 
         .articlerouwtaak1 { 
