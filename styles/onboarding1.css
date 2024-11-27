@@ -83,7 +83,7 @@ article p {
 
 article img {
     height: 150px;
-    width: 200px;
+    width: 150px;
     filter: blur(0px);
     height: auto;
     margin-top: 2vh;
@@ -146,7 +146,7 @@ footer #volgendeKnop {
     bottom: -20%;
     right: 0;
     height: 25em;
-    width: 25em;
+    width: 20em;
     filter: blur(3em);
     z-index: -1;
     overflow: hidden;
@@ -157,7 +157,7 @@ footer #volgendeKnop {
     bottom: -20%;
     right: 0;
     height: 25em;
-    width: 25em;
+    width: 20em;
     filter: blur(3em);
     z-index: -1;
     overflow: hidden;
@@ -168,7 +168,7 @@ footer #volgendeKnop {
     bottom: -20%;
     right: 0;
     height: 25em;
-    width: 25em;
+    width: 20em;
     filter: blur(3em);
     z-index: -1;
     overflow: hidden;
@@ -179,7 +179,7 @@ footer #volgendeKnop {
     bottom: -20%;
     right: 0;
     height: 25em;
-    width: 25em;
+    width: 20em;
     filter: blur(3em);
     z-index: -1;
     overflow: hidden;
@@ -191,18 +191,20 @@ footer #volgendeKnop {
         overflow: hidden;
     }
 
+    header img {
+        margin-top: 4em;
+    }
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-left: 4vw;
         margin-top: 10vh;
         gap: 0em;
     }
 
     .titel {
         margin-top: 2vh;
-        margin-left: 4vw;
-        margin-bottom: 8vh;
+        margin-bottom: 4vh;
     }
 
     .articlerouwtaak1 { 
@@ -214,9 +216,8 @@ footer #volgendeKnop {
 
         &:hover {
             z-index: 3;
-            left: 10%;
             opacity: 1;
-            transform: scale(1.3);
+            transform: scale(1.2);
             h2, h4, p {
                 visibility: visible;   
             }
@@ -232,7 +233,6 @@ footer #volgendeKnop {
 
         &:hover {
             z-index: 3;
-            left: 10%;
             opacity: 1;
             transform: scale(1.3);
             h2, h4, p {
@@ -250,7 +250,6 @@ footer #volgendeKnop {
 
         &:hover {
             z-index: 3;
-            left: 10%;
             opacity: 1;
             transform: scale(1.3);
             h2, h4, p {
@@ -268,7 +267,6 @@ footer #volgendeKnop {
 
         &:hover {
             z-index: 3;
-            left: 10%;
             opacity: 1;
             transform: scale(1.3);
             h2, h4, p {
@@ -286,8 +284,12 @@ footer #volgendeKnop {
         left: 10%;
     }
 
+    article {
+        transition: 0.4s ease;
+    }
+
     article h2 {
-        margin-top: 6em;
+        margin-top: 5em;
         font-size: 40px;
         z-index: 999;
     }
@@ -300,13 +302,14 @@ footer #volgendeKnop {
     article p {
         font-size: 16px;
         z-index: 999;
-        max-width: 20em;
+        max-width: 16em;
     }
 
     article img {
         position: absolute;
         margin-top: 1vh;
-        top: 0;
+        left: 50%;
+        translate: 10%;
     }
 
     footer #terugKnop {

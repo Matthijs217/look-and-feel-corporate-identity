@@ -46,6 +46,7 @@ main h2 {
 }
 
 main button {
+    width: 85%;
     background-color: transparent;
     color: #F5F5F5;
     font-family: 'Figtree', sans-serif;
@@ -244,7 +245,7 @@ footer #overslaanknop {
     z-index: -1;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 580px) {
     header h1 {
         font-size: 60px;
     }
@@ -253,6 +254,9 @@ footer #overslaanknop {
     }
     main h2 {
         font-size: 24px;
+    }
+    main button {
+        width: 85%;
     }
 }
 
@@ -265,5 +269,14 @@ footer #overslaanknop {
     }
     main h2 {
         font-size: 30px;
+    }
+    main button {
+        width: 75%;
+    }
+}
+
+@media (min-width: 850px) {
+    main button {
+        width: 45%;
     }
 }
