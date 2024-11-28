@@ -35,7 +35,7 @@ Wij hebben een hele nieuwe main page gemaakt.
 - Er is een main container waar de opdrachten in komen te staan. Deze opdrachten hebben details zoals de tijd (hoelang duurt de opdracht). Tips van andere gebruikers en community drops waar later nog een soort forum bij komt.
 - Als de pagina breder word (responsive) dan worden de opdrachten verdeeld in meerdere kolommen.
 
-  ## Bouwen
+## Bouwen
 
 Voor het bouwen van de website heb ik de breakdown schets overgenomen. Dus de html elementen allemaal correct neergezet. De main-page is heel verschillend van de rest van de website. Dit komt omdat de rest van de website nog een onboarding is die je 1x moet doornemen. De header heeft een functionaliteit van javascript om een dropdown menu te openen. In dit dropdown menu kan je switchen van rouwtaken. De opdrachten staan in een grid met kolommen, hoe breeder de website hoe meer kolommen. 
 
