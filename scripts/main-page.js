@@ -17,3 +17,20 @@ dropDown.addEventListener('click', () => {
         switchRouwTaken.style.display = 'flex'; // Toon switchRouwTaken
     }
 });
+
+
+let showPopup = document.querySelectorAll('.comudrops-btn');
+
+showPopup.forEach(button => {
+    button.addEventListener('click', () => {
+        console.log('click');
+        document.querySelector('.popup').style.display = 'flex';
+    });
+});
+
+let closePopup = document.querySelector('.popup-header img');
+
+closePopup.addEventListener('click', () => {
+    document.querySelector('.popup').style.display = 'none';
+
+});
